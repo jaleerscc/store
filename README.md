@@ -2,7 +2,7 @@
 
 ## About
 
-* Demo app to show a sample shopping cart implementation
+* A spring boot app to show a sample shopping cart implementation
 * Uses spring jpa and spring rest
 * Application starts with two items already added to store.
 
