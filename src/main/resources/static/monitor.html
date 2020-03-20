@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Check the status here</title>
+</head>
+<body>
+	<h3>Shopping Cart:</h3>
+	<iframe width="100%" src="cart/total"></iframe>
+	<h3>Cart Total:</h3>
+	<iframe width="100%" src="cart/items"></iframe>
+	<h3>Store Items:</h3>
+	<iframe width="100%" src="store/items"></iframe>
+	<form action="addToStore" method="get">
+		Name: <input type="text" name="name" />
+		Price: <input type="text" name="price" />
+		<input type="submit" value="Add to store">
+	</form>
+	<form action="addToCart" method="get">
+		Name: <input type="text" name="name" />
+		Quantity: <input type="text" name="quantity" />
+		<input type="submit" value="Add to cart">
+	</form>
+</body>
+</html>
