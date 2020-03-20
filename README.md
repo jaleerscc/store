@@ -18,7 +18,11 @@ Clone the code from repository
 ```
 mvn clean install
 ```
+### Unit Tests
 
+```
+mvn test
+```
 ### Run
 * Mac:
 ```
